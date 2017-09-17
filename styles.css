@@ -66,6 +66,20 @@ main {
 /* Desktop */
 @media only screen and (min-width: 961px) {
   body {
-    background-color: #B2D6FF;
+    width: 960px;
+    margin: 0 auto;
+  }
+  #feature-1, #feature-2, #feature-3 {
+    width: 33.3%;
+  }
+  header {
+    height: 400px;
+  }
+  #sign-up {
+    height: 200px;
+    order: 1;
+  }
+  main {
+    order: 2;
   }
 }
