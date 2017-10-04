@@ -5,6 +5,12 @@
 
 body {
     margin: 0px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+header, nav, main, article, section, footer {
+    width: 100%;
 }
 
 header {
@@ -83,4 +89,16 @@ aside {
     font-style: italic;
     line-height: 1;
     font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        width: 75%;
+    }
+    aside {
+        width: 25%;
+    }
+    article {
+        width: 50%;
+    }
 }
