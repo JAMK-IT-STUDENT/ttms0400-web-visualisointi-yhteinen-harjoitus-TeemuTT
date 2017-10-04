@@ -68,12 +68,18 @@ article img {
     height: auto;
 }
 
+article {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
 article:nth-child(odd) {
-    background-color: #FFF193;
+    background-color: #DEDEDE;
 }
 
 article:nth-child(even) {
-    background-color: #E8BA8A;
+    background-color: #A0ADBB;
 }
 
 p {
@@ -101,6 +107,7 @@ aside {
     }
     article {
         width: 50%;
+        background-color: #DEDEDE !important;
     }
 }
 
