@@ -1,0 +1,70 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nappula1 {
+  padding: 20px 40px;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  background-color: #4388FF;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  display: block;
+  margin: 20px 0px;
+  transition: background-color 300ms ease-in-out;
+}
+.nappula1:hover {
+  background-color: #90B9FF; 
+}
+.nappula1:active {
+  background-color: #e09e39;
+}
+
+.nappula2 {
+  padding: 20px 40px;
+  font-size: 24px;
+  text-align: center;
+  color: #2b2b2b;
+  background-color: #ddeb1b;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  display: block;
+  margin: 20px 0px;
+  transition: background-color 300ms ease-in-out;
+  transition: border-radius 300ms ease-in-out;
+}
+.nappula2:hover {
+  background-color: #ebee38; 
+}
+.nappula2:active {
+  border-radius: 75px;
+}
+
+.nappula3 {
+  padding: 20px 40px;
+  width: 173px;
+  height: 70px;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  background-color: #f33943;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  display: block;
+  margin: 20px 0px;
+  transition: background-color 300ms ease-in-out;
+  transition: font-size 300ms cubic-bezier(.33,-1.46,.64,2.83);
+}
+.nappula3:hover {
+  background-color: #f35d67; 
+}
+.nappula3:active {
+  font-size: 16px;
+}
