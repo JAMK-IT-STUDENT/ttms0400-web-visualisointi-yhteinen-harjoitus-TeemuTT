@@ -1,0 +1,21 @@
+{
+  "name": "harjoitustyo",
+  "version": "1.0.0",
+  "description": "Teemu Tuomela H8705 IIO14S2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JAMK-IT-STUDENT/ttms0400-web-visualisointi-yhteinen-harjoitus-TeemuTT.git"
+  },
+  "author": "Teemu Tuomela H8705",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JAMK-IT-STUDENT/ttms0400-web-visualisointi-yhteinen-harjoitus-TeemuTT/issues"
+  },
+  "homepage": "https://github.com/JAMK-IT-STUDENT/ttms0400-web-visualisointi-yhteinen-harjoitus-TeemuTT#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  }
+}
