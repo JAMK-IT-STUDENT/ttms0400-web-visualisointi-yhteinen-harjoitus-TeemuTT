@@ -2,7 +2,7 @@
 @import "bulma/sass/utilities/functions";
 
 // Override variables here.
-$primary: #3765c9;
+// $primary: #3765c9;
 
 // Import everything.
 @import "bulma/bulma.sass";
@@ -16,5 +16,46 @@ $primary: #3765c9;
 // @import "bulma/sass/layout/_all";
 
 h1 {
-    font-size: $size-1;
+  font-size: $size-1;
+}
+
+h2 {
+  font-size: $size-2;
+}
+
+h3 {
+  font-size: $size-3;
+}
+
+.main-container {
+  padding: 10px 0;
+}
+
+.product {
+  @extend .box;
+  // box-shadow: none;
+  height: 100%;
+  
+  & .product-title {
+    display: block;
+    font-size: $size-5;
+  }
+
+  & .product-price {
+    display: block;
+    font-size: $size-6;
+  }
+
+  & .product-controls {
+    display: flex;
+    flex-flow: row wrap;
+
+    & input {
+      width: 5rem;
+    }
+
+    & input, & button {
+      margin: 3px;
+    }
+  }
 }
