@@ -99,3 +99,22 @@ h3 {
     }
   }
 }
+
+.notification {
+  // visibility: hidden;
+  position: fixed;
+  bottom: -100px;
+  width: 100%;
+  text-align: center;
+  transition: bottom 300ms ease;
+  &.is-active {
+    // visibility: visible;
+    bottom: 0px;
+  }
+}
+
+.menu {
+  & a.is-active {
+    background-color: $primary;
+  }
+}
