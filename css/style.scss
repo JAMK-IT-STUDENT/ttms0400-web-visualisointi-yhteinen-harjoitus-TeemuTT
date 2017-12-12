@@ -59,3 +59,20 @@ h3 {
     }
   }
 }
+
+@media screen and (min-width: $tablet) {
+  .navbar-burger {
+    display: none;
+  }
+  .navbar-menu {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-content: stretch;
+    box-shadow: none;
+    padding: 0;
+  }
+  .navbar-brand {
+    display: none;
+  }
+}
