@@ -2,7 +2,7 @@
 @import "bulma/sass/utilities/functions";
 
 // Override variables here.
-// $primary: #3765c9;
+$primary: #d38135;
 
 // Import everything.
 @import "bulma/bulma.sass";
@@ -35,6 +35,8 @@ h3 {
   @extend .box;
   // box-shadow: none;
   height: 100%;
+  position: relative;
+  padding-bottom: 45px;
   
   & .product-title {
     display: block;
@@ -47,6 +49,10 @@ h3 {
   }
 
   & .product-controls {
+    position: absolute;
+    height: 42px;
+    bottom: 2px;
+    right: 2px;
     display: flex;
     flex-flow: row wrap;
 
@@ -74,5 +80,22 @@ h3 {
   }
   .navbar-brand {
     display: none;
+  }
+}
+
+.shopping-basket {
+  padding: 10px 0;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #2e2e2e;
+  color: #f3f3f3;
+
+  & button {
+    margin-left: 10px;
+    & .fa {
+      margin-right: 5px;
+    }
   }
 }
