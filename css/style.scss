@@ -38,17 +38,17 @@ h3 {
   position: relative;
   padding-bottom: 45px;
   
-  & .product-title {
+  .product-title {
     display: block;
     font-size: $size-5;
   }
 
-  & .product-price {
+  .product-price {
     display: block;
     font-size: $size-6;
   }
 
-  & .product-controls {
+  .product-controls {
     position: absolute;
     height: 42px;
     bottom: 2px;
@@ -56,11 +56,11 @@ h3 {
     display: flex;
     flex-flow: row wrap;
 
-    & input {
+    input {
       width: 5rem;
     }
 
-    & input, & button {
+    input, button {
       margin: 3px;
     }
   }
@@ -92,9 +92,9 @@ h3 {
   background-color: #2e2e2e;
   color: #f3f3f3;
 
-  & button {
+  a {
     margin-left: 10px;
-    & .fa {
+    .fa {
       margin-right: 5px;
     }
   }
@@ -114,7 +114,13 @@ h3 {
 }
 
 .menu {
-  & a.is-active {
+  a.is-active {
     background-color: $primary;
+  }
+}
+
+.checkout {
+  table {
+    display: inline-block;
   }
 }
