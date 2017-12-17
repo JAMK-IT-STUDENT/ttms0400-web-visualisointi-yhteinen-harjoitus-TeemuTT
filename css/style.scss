@@ -5,15 +5,30 @@
 $primary: #d38135;
 
 // Import everything.
-@import "bulma/bulma.sass";
+// @import "bulma/bulma.sass";
 
 // Import specific modules.
-// @import "bulma/sass/utilities/_all";
-// @import "bulma/sass/base/_all";
-// @import "bulma/sass/elements/_all";
-// @import "bulma/sass/components/_all";
-// @import "bulma/sass/grid/_all";
-// @import "bulma/sass/layout/_all";
+@import "bulma/sass/utilities/_all";
+
+@import "bulma/sass/base/_all";
+
+@import "bulma/sass/elements/box";
+@import "bulma/sass/elements/button";
+@import "bulma/sass/elements/container";
+@import "bulma/sass/elements/content";
+@import "bulma/sass/elements/image";
+@import "bulma/sass/elements/notification";
+@import "bulma/sass/elements/table";
+@import "bulma/sass/elements/title";
+
+@import "bulma/sass/components/media";
+@import "bulma/sass/components/navbar";
+@import "bulma/sass/components/menu";
+
+@import "bulma/sass/grid/_all";
+
+@import "bulma/sass/layout/_all";
+
 
 h1 {
   font-size: $size-1;
@@ -33,7 +48,6 @@ h3 {
 
 .product {
   @extend .box;
-  // box-shadow: none;
   height: 100%;
   position: relative;
   padding-bottom: 45px;
@@ -66,6 +80,8 @@ h3 {
   }
 }
 
+// Bulma piilottaa navigaation mobiili- ja tablet-koossa.
+// Omassa layoutissani haluan kuitenkin näyttää navigaation aina tablet-koossa.
 @media screen and (min-width: $tablet) {
   .navbar-burger {
     display: none;
@@ -101,14 +117,14 @@ h3 {
 }
 
 .notification {
-  // visibility: hidden;
   position: fixed;
   bottom: -100px;
   width: 100%;
   text-align: center;
+  z-index: 1;
   transition: bottom 300ms ease;
+
   &.is-active {
-    // visibility: visible;
     bottom: 0px;
   }
 }

@@ -12,10 +12,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Show notification when adding product to basket.
   var purchaseButtons = document.querySelectorAll('.purchase-button');
-  console.log(purchaseButtons);
   purchaseButtons.forEach(function (button) {
     button.addEventListener('click', function() {
-      console.log('click');
       var notificationBar = document.getElementById('notification-bar');
       notificationBar.classList.add('is-active');
       
