@@ -8,7 +8,6 @@ IIO14S2
 Harjoitustyö löytyy gh-pages branchista: https://github.com/JAMK-IT-STUDENT/ttms0400-web-visualisointi-yhteinen-harjoitus-TeemuTT/tree/gh-pages
 
 # Harjoitukset
-### gh-pages linkit:
 * w37 - https://jamk-it-student.github.io/ttms0400-web-visualisointi-yhteinen-harjoitus-TeemuTT/w37/
 * w39 - https://jamk-it-student.github.io/ttms0400-web-visualisointi-yhteinen-harjoitus-TeemuTT/w39/w39.html
 * w40-1 - Tässä README-tiedostossa. Katso alempaa.
@@ -17,6 +16,7 @@ Harjoitustyö löytyy gh-pages branchista: https://github.com/JAMK-IT-STUDENT/tt
 * w41-2 - https://jamk-it-student.github.io/ttms0400-web-visualisointi-yhteinen-harjoitus-TeemuTT/w41-2/
 * w44-1 - https://jamk-it-student.github.io/ttms0400-web-visualisointi-yhteinen-harjoitus-TeemuTT/w44-1/transition.html
 * w44-2 - https://jamk-it-student.github.io/ttms0400-web-visualisointi-yhteinen-harjoitus-TeemuTT/w44-2/animation.html
+* w45 - https://github.com/JAMK-IT-STUDENT/ttms0400-web-visualisointi-yhteinen-harjoitus-TeemuTT/tree/master/W45
 
 # W40-1 - CSS-kirjastot
 Harjoitustyötä ajatellen haluaisin mahdollisimman kevyen css-kirjaston ilman JavaScript-kilkkeitä. Kirjastolta kaipaan hyvää aloituspohjaa, jossa komponentit näyttävät miellyttäviltä, mutta ovat myös itse helposti muokattavissa.  
